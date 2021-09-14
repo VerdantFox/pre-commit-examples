@@ -9,5 +9,5 @@ flake8 source_code
 echo "flake8 passed!"
 
 # Run black against all code
-black source_code
+black source_code --check
 echo "black passed!"
